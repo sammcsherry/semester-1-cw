@@ -22,7 +22,7 @@ namespace Guassian_Elimination
                 matrix.fill_matrix_random();
                 //matrix.fill_custom_matrix();
                 //matrix.print_matrix();
-                Guassian_Elimination_Algorithm.guassian_elimination_r(matrix, 0, 0);
+                Guassian_Elimination_Algorithm.guassian_elimination_r(matrix, 0, 0).print;
             }
           
             init(matrix_size);
